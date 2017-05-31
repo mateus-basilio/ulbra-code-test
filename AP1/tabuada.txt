@@ -1,0 +1,16 @@
+algoritmo "tabuada"
+
+var i, n1:inteiro
+
+inicio
+
+      escreva("informe um número, para realizar a tabuada: ")
+      leia(n1)
+
+                       para i<-1 ate 10 faca
+
+                       escreval(n1," x ",i," = ",n1*i)
+
+                       fimpara
+
+fimalgoritmo
