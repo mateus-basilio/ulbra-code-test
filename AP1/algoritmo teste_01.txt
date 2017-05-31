@@ -1,0 +1,13 @@
+2)	Mult_Mult
+
+Entrada
+Real
+Var A1,B1, MEDIA, 
+
+	Escreva (“Informe o valor de A”);
+	 Leia (A1);
+	Escreva (“Informe o valor de B”);
+	 Leia (B1);
+	MEDIA = ((A1*4)(+B1*6))/2;
+	Escreva (“A média é:” MEDIA);
+Fim
