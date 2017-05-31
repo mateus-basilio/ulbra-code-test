@@ -1,0 +1,105 @@
+﻿Média do aluno
+Entrada
+real
+Variáveis:
+G1, G2, Media
+Escreva (“Informe valor do g1”)
+Leia (g1)
+Escreva (“Informe valor do g2”)
+Leia (g2)
+Media = (g1 + g2* 2) /3
+Escreva (“a media do aluno é”, media)
+Fim
+
+2)	CALCULO_MEDIA
+
+Entrada
+Var
+inteiro n1 n2 n3 
+real media
+Inicio
+Escreva (“informe o primeiro número”)
+Leia (n1)
+Escreva (“informe o segundo número”)
+Leia (n2)
+Escreva (“informe o terceiro número”)
+Leia (n3)
+Media = ((n1+n2+n3)/3)
+Escreva (“Os números inseridos são:” n1 n2 n3)
+Escreva (“A média dos três números é:” media)
+Fim 
+
+3)algoritmo "tabuada"
+
+var i, n1:inteiro
+
+inicio
+
+      escreva("informe um número, para realizar a tabuada: ")
+      leia(n1)
+
+                       para i<-1 ate 10 faca
+
+                       escreval(n1," x ",i," = ",n1*i)
+
+                       fimpara
+
+fimalgoritmo
+
+4)algoritmo "cont = 13"
+
+var
+cont,soma,numero,menor,maior:inteiro
+media:real
+
+inicio
+      cont<-0
+      maior<-0
+      menor<-100
+      repita
+      leia(numero)
+      se numero>maior entao
+      maior<-numero
+      fimse
+      se numero<menor entao
+      menor<-numero
+      fimse
+      soma<-soma+numero
+      cont<-cont+1
+      ate (soma = 100) ou (numero = 0) ou (cont=13)
+      escreva (menor,maior)
+
+fimalgoritmo
+
+5)	COFRINHO_ROINK
+
+Entrada
+
+Var
+Real n1,n2,n3,n4,n5,t0
+	Escreva (“Informe o valor de moedas de 1 real”)
+	Leia (n1)
+	Escreva (“informe o valor de moedas de 50 centavos”)
+	Leia (n2)
+
+	N2 = n2*0.5
+
+	Escreva (“Informe o valor de moedas de 25 centavos”)
+	Leia (n3)
+
+	N3= n3*0.25
+
+	Escreva (“Informe o valor de moedas de 10 centavos”)
+	Leia (n4)
+
+	N4= n4*0.10
+
+	Escreva (“Informe o valor de moedas de 5 centavos”)
+	leia(n5)
+
+	N5= n5*0.05
+	T0 = n1+n2+n3+n4+n5
+
+	Escreva (“o valor total no cofre é:” T0)
+
+Fim
