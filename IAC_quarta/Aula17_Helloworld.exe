@@ -1,0 +1,10 @@
+usinng system;
+
+class aula17_helloworld
+{
+	public static void main()
+	{
+		Console.writeline("Hello World!");
+		Console.Readline();
+	}
+}
